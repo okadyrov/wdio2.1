@@ -10,7 +10,7 @@ describe('PROFILE', () => {
 
   it('should go to profile Page', () => {
     browser.pause(5000);
-    expect(ProfilePage.h1.getText()).eq('Test Testovich')
+    expect(ProfilePage.h1.getText()).eq('Oleg Kadyrov')
   });
 
 });

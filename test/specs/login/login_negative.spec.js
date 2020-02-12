@@ -14,11 +14,11 @@ describe('LOGIN (negative)', () => {
   });
 
   it('should fill out email field', () => {
-    LoginPage.email.setValue('olya6avg@gmail.com');
+    LoginPage.email.setValue('abathojalyk@gmail.com');
   });
 
   it('should fill out password field', () => {
-    LoginPage.password.setValue('11111+')
+    LoginPage.password.setValue('19739')
   });
 
   it('should submit form', () => {
@@ -27,7 +27,7 @@ describe('LOGIN (negative)', () => {
   });
 
   it('should check h1 text', () => {
-    expect(LoginPage.h1.getText()).eq('User Login')
+    expect(LoginPage.h1.getText()).eq('Oleg Kadyrov')
   });
 
 });

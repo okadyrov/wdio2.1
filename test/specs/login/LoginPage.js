@@ -19,8 +19,8 @@ class LoginPage extends Page {
 
   login() {
     this.open();
-    this.email.setValue('olya6avg@gmail.com');
-    this.password.setValue('11111');
+    this.email.setValue('abathojalyk@gmail.com');
+    this.password.setValue('19739');
     this.submitBtn.click();
     browser.pause(3000);
   }
